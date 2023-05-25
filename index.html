@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ua">
+<head>
+    <meta charset="UTF-8">
+    <title>Курсова</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="main-title">
+            Графічне моделювання: Трикутники
+        </h1>
+        <div class="area">
+            <div class="about">
+                <div class="about__cross"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="#ffffff" d="M4.293,18.293,10.586,12,4.293,5.707A1,1,0,0,1,5.707,4.293L12,10.586l6.293-6.293a1,1,0,1,1,1.414,1.414L13.414,12l6.293,6.293a1,1,0,1,1-1.414,1.414L12,13.414,5.707,19.707a1,1,0,0,1-1.414-1.414Z"/></svg></div>
+                <h3 class="about__title">Про програму</h3>
+                <p class="about__text"><b>Назва проекту:</b> "Графічне моделювання: робота з точками та трикутниками <br><br><br>
+                    <b>Завдання:</b> Розробка програми мовою JavaScript з використанням технології об'єктно-орієнтованого програмування <br><br><br>
+                <b>Автор проекту:</b> Мельник Вадим. Студент групи 4-ОК2 ВСП "ВіФК НУХТ".</p>
+            </div>
+            <canvas></canvas>
+            <div class="info">
+                <h2 class="info__title">Параметри трикутників</h2>
+                <div class="info__inner"></div>
+            </div>
+        </div>
+        <div class="buttons">
+            <div class="button__file">
+                <label for="myfile" class="label">Виберіть файл</label>
+                <input id="myfile" type="file" class="input--file">
+            </div>
+            <div class="functions">
+            <button id="drawTriangles" class="function">Намалювати трикутники</button>
+            <button id="drawTrianglesWithFill" class="function">Розмалювати трикутники</button>
+            <button id="getPerimeters" class="function">Виділити за периметром</button>
+            <button id="drawParam" class="function">Відобразити параметири</button>
+        </div>
+            <button class="button__info">
+
+                    Про програму
+
+            </button>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="Triangle.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
